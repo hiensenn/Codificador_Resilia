@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+    text-align: center;
+    line-height: 27px;
+    background-color: teal;
+}
+#container-conteudo{
+    width: 400px;
+    height: 310px;
+    background-color: rgb(25, 97, 97);
+    color: whitesmoke;
+    font-family: monospace;
+}
+#campo-texto p{
+    margin-top: 5px;
+}
+#container-conteudo h1{
+    font-variant: small-caps;
+    font-size: 36px;
+}

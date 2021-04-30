@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cifraDeCesar/css/cesar.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="container-conteudo">
+        <h1>codificador</h1>
+    <div id="campo-texto">
+        <p>digite seu texto</p>
+        <input type="text" name="" id="input-mensagem" data-input-mensagem>
+    </div>
+
+
+    <form id="criptografar">
+
+        <label for="escolherCripto">Escolha a Criptografia</label><br>
+        <select name="escolherCripto" id="escolher-cripto" data-escolher-cripto>
+            <option value=""></option>
+            <option value="base_64" id="base_64">Base_64</option>
+            <option value="Cifra_de_Cesar">Cifra_de_Cesar</option>
+        </select><br>
+
+        <div id="rot" style="display: none;">
+            <label for="">ROT + </label><br>   
+            <input type="number" name="" id="rotation" data-rotation>
+        </div><br>
+
+        <input type="radio" value="codificar" id="radio-btn1" name="cripto" data-radio-bnt1>
+        <label for="base 64">codificar</label><br>
+        <input type="radio" value="decodificar" id="radio-btn2" name="cripto" data-radio-btn2>
+        <label for="cifra de César">decodificar</label>
+    </form>
+
+    <div>
+        <button id="botao" style="display: none;"> - </button>
+    </div>
+
+    <div id="campos-textual">
+        <p>seu texto está aqui :</p>
+        <input type="text" name="" id="resultado">
+    </div>
+
+    </div>
+        <script src="../cifraDeCesar/js/cesar.js"></script>
+</body>
+</html>
