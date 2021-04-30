@@ -26,8 +26,8 @@ function evento()
 
 function criptografar()
 {
-    debugger;
-    var mensagem = document.getElementById('input-mensagem').value;
+    
+    var mensagem = document.getElementById('input-mensagem').value.toLowerCase();
     var msgCriptografada = '';
 
     if(escolherCripto.value == "base_64")
@@ -59,7 +59,7 @@ function criptografar()
 
 function descriptografar()
 {
-    debugger;
+    
     var mensagem = document.getElementById('input-mensagem').value;
     var msgDesriptografada = '';
 
